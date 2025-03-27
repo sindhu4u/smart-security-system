@@ -104,7 +104,7 @@ def predict_video(model, video_path, transform):
 
 # 🔸 New function: Just returns the predicted class
 def predict_class(video_path: str):
-    model_path = "trained_deit_distilled_best.pth"
+    model_path = "rained_deit_distilled_best (1).pth"
     num_classes = 6  # Update based on your dataset
 
     processor = AutoImageProcessor.from_pretrained("facebook/deit-base-distilled-patch16-384")
