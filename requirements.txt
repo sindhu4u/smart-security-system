@@ -1,0 +1,9 @@
+streamlit
+streamlit_extras
+transformers
+torchvision
+opencv-python
+torch
+matplotlib
+collections
+pathlib
